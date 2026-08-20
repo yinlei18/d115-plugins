@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "repository": {
+    "id": "com.yinlei.d115-plugins",
+    "name": "尹磊插件仓库",
+    "homepage": "https://github.com/yinlei18/d115-plugins"
+  },
+  "plugins": [
+    {
+      "id": "com.yinlei.adult-film-detector",
+      "name": "三级片识别助手",
+      "version": "1.0.0",
+      "description": "扫描 115 媒体库，用硅基流动视觉模型识别三级片/AV片，结果标记并展示。",
+      "author": "Yinlei Studio",
+      "homepage": "https://github.com/yinlei18/d115-plugins",
+      "icon_url": "",
+      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-1.0.0.d115p",
+      "sha256": "f222039f98ef62a7f100cf015b79d7b19c4895d98b61c66a208a4f5cd0a54d0a",
+      "capabilities": [
+        {
+          "capability": "network.http",
+          "reason": "调用硅基流动视觉模型识别影片海报"
+        },
+        {
+          "capability": "files.cloud.read",
+          "reason": "读取 115 媒体库影片目录"
+        },
+        {
+          "capability": "storage.kv",
+          "reason": "保存识别结果"
+        },
+        {
+          "capability": "secrets.use",
+          "reason": "读取硅基流动 API Key"
+        },
+        {
+          "capability": "notifications.plugin.send",
+          "reason": "识别完成通知"
+        }
+      ],
+      "tags": [
+        "media",
+        "ai",
+        "detector"
+      ]
+    }
+  ]
+}
