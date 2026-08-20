@@ -15,7 +15,7 @@
       "homepage": "https://github.com/yinlei18/d115-plugins",
       "icon_url": "",
       "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-1.0.0.d115p",
-      "sha256": "a08f62307b33f083b5dd83b9c59c14f48b28a353787b35c89d5b32e20cc34abb",
+      "sha256": "2b85da0510d3767ed38fcee837e43e84824f37f197e5a2fa94753bb725d5f8d2",
       "capabilities": [
         {
           "capability": "network.http",
