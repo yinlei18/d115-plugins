@@ -36,12 +36,19 @@
         {
           "capability": "notifications.plugin.send",
           "reason": "识别完成通知"
+        },
+        {
+          "capability": "accounts.115.use",
+          "reason": "选择 115 主账号访问媒体库"
         }
       ],
       "tags": [
         "media",
         "ai",
         "detector"
+      ],
+      "account_access": [
+        "main"
       ]
     }
   ]
