@@ -9,13 +9,13 @@
     {
       "id": "com.yinlei.adult-film-detector",
       "name": "三级片识别助手",
-      "version": "1.0.0",
-      "description": "扫描 115 媒体库，用硅基流动视觉模型识别三级片/AV片，结果标记并展示。",
+      "version": "1.1.0",
+      "description": "扫描 115 媒体库，用 AI 识别三级片/AV片（片名语义判断），结果标记并展示。",
       "author": "Yinlei Studio",
       "homepage": "https://github.com/yinlei18/d115-plugins",
       "icon_url": "",
-      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-1.0.0.d115p",
-      "sha256": "6950c50b803efc266dd41ce26eaec12ac7e239977e359966a22fadd8d9f5d993",
+      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-1.1.0.d115p",
+      "sha256": "2ca8bfd90ffee90738f2f4e1694d4c5844a3ab3f0ea9f80e0fd5e015e1c8251b",
       "capabilities": [
         {
           "capability": "network.http",
