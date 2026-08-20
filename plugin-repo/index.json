@@ -9,13 +9,13 @@
     {
       "id": "com.yinlei.adult-film-detector",
       "name": "成人内容识别",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "description": "识别三级片/AV片：输入片名自动判断（关键词+AV番号+分级规则），帮助 dian115 整理时识别成人内容，零依赖零费用。",
       "author": "Yinlei Studio",
       "homepage": "https://github.com/yinlei18/d115-plugins",
       "icon_url": "",
-      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-2.0.1.d115p",
-      "sha256": "7a7a8b6e10932fc56ce5bf301862df24959f16c7ff7ff7834f0f61543115d52d",
+      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-2.0.2.d115p",
+      "sha256": "137d6534567d4467c0b311bc9fe9aa23214f15077dfe92114dd4a124b56d74a8",
       "capabilities": [
         {
           "capability": "storage.kv",
