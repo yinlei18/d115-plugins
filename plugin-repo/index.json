@@ -9,21 +9,21 @@
     {
       "id": "com.yinlei.adult-film-detector",
       "name": "三级片识别助手",
-      "version": "1.1.9",
+      "version": "1.2.0",
       "description": "扫描 115 媒体库，用 AI 识别三级片/AV片（片名语义判断），结果标记并展示。",
       "author": "Yinlei Studio",
       "homepage": "https://github.com/yinlei18/d115-plugins",
       "icon_url": "",
-      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-1.1.9.d115p",
-      "sha256": "e21a34222cdfddfc5f4bbcff7882b504ae1e5f70104838381b5e169ca6a08833",
+      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-1.2.0.d115p",
+      "sha256": "862b1b85ebd3206276c6e3e0fc830e6def0bdc8f83ab2233faa58ab2ae0b8803",
       "capabilities": [
         {
           "capability": "network.http",
           "reason": "调用硅基流动视觉模型识别影片海报"
         },
         {
-          "capability": "files.cloud.read",
-          "reason": "读取 115 媒体库影片目录"
+          "capability": "files.local.read",
+          "reason": "读取本地媒体库 STRM 目录获取影片名称"
         },
         {
           "capability": "storage.kv",
@@ -36,19 +36,12 @@
         {
           "capability": "notifications.plugin.send",
           "reason": "识别完成通知"
-        },
-        {
-          "capability": "accounts.115.use",
-          "reason": "选择 115 主账号访问媒体库"
         }
       ],
       "tags": [
         "media",
         "ai",
         "detector"
-      ],
-      "account_access": [
-        "main"
       ]
     }
   ]
