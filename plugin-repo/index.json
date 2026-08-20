@@ -8,30 +8,18 @@
   "plugins": [
     {
       "id": "com.yinlei.adult-film-detector",
-      "name": "三级片识别助手",
-      "version": "1.3.4",
-      "description": "识别三级片/AV片：输入或导入片名列表，AI 语义判断并展示结果。",
+      "name": "成人内容识别",
+      "version": "2.0.0",
+      "description": "识别三级片/AV片：输入片名自动判断（关键词+AV番号+分级规则），帮助 dian115 整理时识别成人内容，零依赖零费用。",
       "author": "Yinlei Studio",
       "homepage": "https://github.com/yinlei18/d115-plugins",
       "icon_url": "",
-      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-1.3.4.d115p",
-      "sha256": "dd143ecab213410aa0df9839cb0c6cc582a4c13c2439eb75ea74946647a5b417",
+      "package_url": "https://raw.githubusercontent.com/yinlei18/d115-plugins/main/plugin-repo/adult-film-detector-2.0.0.d115p",
+      "sha256": "0df2edf672237fdc2b6caacf724914715b85c762d7fc9471bc7f74bf09ded07b",
       "capabilities": [
         {
-          "capability": "network.http",
-          "reason": "调用硅基流动视觉模型识别影片海报"
-        },
-        {
-          "capability": "files.local.read",
-          "reason": "读取本地媒体库 STRM 目录获取影片名称"
-        },
-        {
           "capability": "storage.kv",
-          "reason": "保存识别结果"
-        },
-        {
-          "capability": "secrets.use",
-          "reason": "读取硅基流动 API Key"
+          "reason": "保存识别结果与历史"
         },
         {
           "capability": "notifications.plugin.send",
